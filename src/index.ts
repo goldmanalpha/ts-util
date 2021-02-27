@@ -1,3 +1,5 @@
-import { Dict, Dict2 } from './types/dict';
+export * from './types/dict';
 
-export { Dict, Dict2 };
+export * from './math';
+
+//can't export * from array because trim is not sufficiently namespaced
